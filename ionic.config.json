@@ -1,0 +1,7 @@
+{
+  "name": "Yoshiinian",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
