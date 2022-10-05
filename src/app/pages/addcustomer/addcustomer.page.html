@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <ion-img src="./assets/yoshii_header.svg" class="yoshii_logo" style="width:16%;"></ion-img>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <a id="backButton" [routerLink]="['/tabs/tab1']"><ion-icon name="arrow-back-outline"></ion-icon></a>
+  <ion-grid class="ion-text-center">
+    <ion-row>
+      <ion-col size="10">
+        <h1>ADD CUSTOMER</h1>
+        <form #form="ngForm" (ngSubmit)="addCustomers()">
+            <ion-input [(ngModel)]="firstname" name="firstname" type="text" placeholder="First Name" ></ion-input><br>
+            <ion-input [(ngModel)]="lastname"  name="lastname" type="text" placeholder="Last Name" ></ion-input><br>
+            <ion-label for="birthdate">Birthdate</ion-label>
+            <ion-input [(ngModel)]="birthdate"  id="birthdate" name="birthdate" type="date" placeholder="dd/mm/yy"  required></ion-input><br>
+            <ion-button expand="block" (click)="ngForm.ngSubmit.addCustomers()">Submit</ion-button>
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+ 
+</ion-content>

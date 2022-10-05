@@ -1,0 +1,38 @@
+
+ion-grid{
+    height: 100%;
+}
+ion-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top:-100px;
+}
+ion-input {
+    font-size: 18px;
+    width: 50%;
+    border: 1px solid grey;
+}
+
+ion-label {
+    font-family: verdana;
+    font-size: 18px;
+  
+}
+form {
+  
+
+}
+
+@media only screen and (min-width: 600px) {
+    ion-input{
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    ion-input{
+        width:100%;
+    }
+}

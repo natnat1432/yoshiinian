@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <ion-img src="./assets/yoshii_header.svg" class="yoshii_logo" style="width:16%;"></ion-img>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let customer of customers">
+    <ion-card-header>
+      <ion-card-subtitle>CUSTOMER</ion-card-subtitle>
+      <ion-card-title>{{ customer.firstname }} {{ customer.lastname}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+     {{ customer.birthdate}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

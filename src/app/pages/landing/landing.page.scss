@@ -1,0 +1,36 @@
+
+ion-grid{
+    height: 100%;
+}
+ion-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.homepage{
+    height:100%;
+}
+
+.homepage .yoshii_logo{
+    width:100px;
+    margin:auto;
+ 
+}
+
+
+
+.homepage .homepage_button{
+    width:50%;
+    height:50px;
+    --border-radius: 50px;
+    text-transform: capitalize;
+    
+}
+
+.homepage .title{
+    font-size:36px;
+    font-weight:bold;
+    margin-top: -10px;
+}
+

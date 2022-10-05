@@ -1,0 +1,40 @@
+ion-grid{
+    height: 100%;
+}
+ion-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.button {
+
+
+}
+
+
+ion-button{
+
+  }
+
+.button_title{
+    margin-left: 10px;
+}
+
+.dashboard_button{
+    width:70%;
+    height:100px;
+
+
+}
+
+.button_title_break{
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+    .button_title_break{
+        display:block;
+    }
+  }
